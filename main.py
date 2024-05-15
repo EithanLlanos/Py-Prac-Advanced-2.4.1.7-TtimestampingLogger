@@ -6,7 +6,7 @@
 ###################################################################################################################################################
 
 import datetime
-import time
+
 def deco (fun):
     def wrapp(v1,v2):
         print(datetime.datetime.now().strftime("%Y-%M-%d %H:%M:%S"))
@@ -34,5 +34,4 @@ def fun4 (v1,v2):
 print(fun1(15,5))
 print(fun2(15,5))
 print(fun3(15,5))
-time.sleep(2)
 print(fun4(15,5))
